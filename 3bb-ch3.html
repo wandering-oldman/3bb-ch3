@@ -22,7 +22,7 @@ body {
 <div id="player"></div>
 <script>
   var player = new Clappr.Player({
-          source: 'https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/101/101.mpd',
+          source: 'https://udzaa2238.github.io/history/อาณาจักรใต้สมุทร.html',
           mimeType: 'application/dash+xml',
           height: '100%',
           width: '100%',
@@ -31,7 +31,7 @@ body {
           events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
           chromecast: {
               preload: 'metadata',
-              contentType: 'video/mpd',
+              contentType: 'video/hls',
           },
           shakaConfiguration: {
               drm: {
